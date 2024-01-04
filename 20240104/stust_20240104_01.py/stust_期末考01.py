@@ -7,7 +7,7 @@ class FriedChicken:
         self.is_crispy = is_crispy
 
     def display_details(self):
-        print(f"口味: {self.flavor}")
+        print(f"\n口味: {self.flavor}")
         print(f"部位: {self.part}")
         print(f"數量: {self.amount}")
         print(f"價格: {self.price}")
